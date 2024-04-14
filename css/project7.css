@@ -1,0 +1,102 @@
+body{
+    background-image: url(vladstudio-library-wallpaper-5919cd763df78cf5fa3d7e27.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    
+
+}
+.data{
+    color:white;
+    margin: auto;
+   
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform:uppercase ;
+    
+}
+p{
+    font-size: 25px;
+    direction: rtl;
+    translate: -45px 0;
+
+    
+}
+input{
+    position: absolute;
+    left: 20%;
+    top: 64%;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(54, 10, 10);
+   
+
+}
+input:hover{
+    transform: scale(1.25);   
+    background-color: rgb(95, 25, 25);
+    
+
+}
+.face{
+        
+background-color: white;    
+ width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 124, 128);
+   margin: auto;
+   
+    
+}
+.face h2{
+text-align: center;
+translate: 0 -10px;
+font-weight:900 ;
+font-size: 25px;
+word-spacing: 2px;
+letter-spacing: 1px;
+
+}
+.ff{
+    padding: 3px;
+}
+.fw{
+
+display: flex;
+padding: 3px;
+
+}
+.facebook::after{
+    content: "click on the icon";
+    color: black;
+    position: absolute;
+    top: 350px;
+    translate: 12px 0;
+     transform: scale(1.25);
+
+ 
+    
+    
+}
+.facebook{
+    text-decoration: none;
+}
+.fw span{
+display: flex;
+justify-content: center;
+align-items: center;
+translate: 15px 0;
+font-size: 20px;
+
+}
